@@ -1,5 +1,5 @@
 // Programmcode der für die Seminararbeit verwendet wurde und in dieser beschrieben wurde
-// geschrieben von Dominik Zenger in der PProgrammiersprache Kotlin
+// geschrieben von Dominik Zenger in der Programmiersprache Kotlin
 
 // Funktion zum generieren von beliebig vielen s_n welche durch 27 teilbar sind
 fun generateSnDivisibleBy27(i:Int = 1, sn: Int = 0) {
