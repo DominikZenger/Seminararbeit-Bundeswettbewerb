@@ -2,7 +2,7 @@
 // geschrieben von Dominik Zenger in der Programmiersprache Kotlin
 
 // Funktion zum generieren von beliebig vielen s_n welche durch 27 teilbar sind
-fun generateSnDivisibleBy27(i:Int = 1, sn: Int = 0) {
+fun generateSnDivisibleBy27(i: Int = 1, sn: Int = 0) {
     if ((sn % 27) == 0) {
         println("$sn (${i-1})")
     }
