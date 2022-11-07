@@ -11,7 +11,7 @@ fun generateSnDivisibleBy27(i:Int = 1, sn: Int = 0) {
 }
 
 // Funktion zum generieren von a_k
-fun getAk(k: Int) : Int{
+fun getAk(k: Int) : Int {
     return if ((k % 3) != 0) k
     else getAk(k/3)
 }
