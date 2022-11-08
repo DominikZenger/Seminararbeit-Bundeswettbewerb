@@ -13,11 +13,11 @@ fun generateSnDivisibleBy27(i: Int = 1, sn: Int = 0) {
 // Funktion zum generieren von a_k
 fun getAk(k: Int) : Int {
     return if ((k % 3) != 0) k
-    else getAk(k/3)
+    else getAk(k / 3)
 }
 
 // Funktion zum generieren von s_n
 fun getSn(n: Int): Int {
     return if (n == 0) 0
-    else getAk(n) + getSn(n-1)
+    else getAk(n) + getSn(n - 1)
 }
