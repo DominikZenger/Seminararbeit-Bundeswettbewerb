@@ -20,5 +20,4 @@ fun getAk(k: Int) : Int {
 fun getSn(n: Int): Int {
     return if (n == 0) 0
     else getAk(n) + getSn(n-1)
-
 }
